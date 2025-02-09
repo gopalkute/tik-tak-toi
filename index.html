@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tik tak toi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="reset()">
+    <div class="msg">
+      <p>hi</p>
+      <div class="handlers">
+        <button onclick="replay()">replay</button>
+        <button onclick="reset()">reset</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>TIK TIK TOI</h1>
+      <div class="game">
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+      </div>
+    </div>
+
+    <!-------------- scripts ---------------->
+    <script src="DataAndReset.js"></script>
+    <script src="WinnerFunctions.js"></script>
+    <script src="DrawFunctions.js"></script>
+    <script src="computerMove.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
